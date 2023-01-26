@@ -1,0 +1,5 @@
+{
+  "rewrites": [{ "source": "/coonara_lancers", "destination": "/index.html" }],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}
