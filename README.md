@@ -1,6 +1,6 @@
 # Slides
 
-Koyo Isono ([@wadakatu](https://github.com/wadakatu)) の登壇・発表スライド集です。
+[@wadakatu](https://github.com/wadakatu) の登壇・発表スライド集です。
 
 [Slidev](https://sli.dev/) を使用して作成しています。
 
