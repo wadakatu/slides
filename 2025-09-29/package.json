@@ -1,0 +1,22 @@
+{
+  "name": "why-serena--mcp",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.2.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.21"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "playwright-chromium": "^1.55.1",
+    "prettier": "^3.6.2",
+    "prettier-plugin-slidev": "^1.0.5"
+  }
+}

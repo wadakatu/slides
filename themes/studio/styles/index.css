@@ -1,0 +1,61 @@
+:root {
+  --slidev-theme-primary: #22d3ee;
+  --slidev-theme-primary-light: #67e8f9;
+  --slidev-theme-primary-dark: #06b6d4;
+}
+
+/* 基本レイアウト */
+.slidev-layout {
+  @apply px-14 py-10;
+  background: black;
+  color: white;
+}
+
+/* リンクのスタイル */
+a {
+  color: var(--slidev-theme-primary);
+}
+
+a:hover {
+  color: var(--slidev-theme-primary-light);
+}
+
+/* コードブロックのスタイル調整 */
+.slidev-code-wrapper {
+  @apply rounded-lg;
+}
+
+/* 見出しのスタイル */
+h1 {
+  @apply text-4xl font-bold;
+  color: white;
+}
+
+h2 {
+  @apply text-3xl font-semibold;
+  color: white;
+}
+
+h3 {
+  @apply text-2xl font-medium;
+  color: white;
+}
+
+/* 強調テキスト */
+strong {
+  color: var(--slidev-theme-primary);
+}
+
+/* リストのスタイル */
+ul, ol {
+  @apply space-y-2;
+}
+
+li::marker {
+  color: var(--slidev-theme-primary);
+}
+
+/* シアンカラーのユーティリティ */
+.text-primary {
+  color: var(--slidev-theme-primary);
+}

@@ -1,0 +1,25 @@
+{
+  "name": "slidev-theme-studio",
+  "version": "1.0.0",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "slidev": {
+    "colorSchema": "dark",
+    "defaults": {
+      "transition": "slide-left",
+      "aspectRatio": "16/9",
+      "lineNumbers": false,
+      "highlighter": "shiki",
+      "css": "unocss",
+      "fonts": {
+        "sans": "Noto Sans JP:300,400,500,700,900",
+        "mono": "JetBrains Mono:400,500,600,700"
+      },
+      "themeConfig": {
+        "primary": "#22d3ee"
+      }
+    }
+  }
+}

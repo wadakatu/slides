@@ -1,0 +1,98 @@
+/* Studio Theme Layout Styles */
+
+.slidev-layout {
+  @apply px-14 py-10;
+  background: black;
+  color: white;
+}
+
+/* Typography */
+.slidev-layout h1 {
+  @apply text-4xl font-bold text-white;
+}
+
+.slidev-layout h1 + p {
+  @apply -mt-2 opacity-50 mb-4;
+}
+
+.slidev-layout h2 {
+  @apply text-3xl font-semibold text-white;
+}
+
+.slidev-layout h3 {
+  @apply text-2xl font-medium text-white;
+}
+
+.slidev-layout h4 {
+  @apply text-xl font-medium text-white;
+}
+
+/* Cover Layout */
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+}
+
+.slidev-layout.cover h1,
+.slidev-layout.intro h1 {
+  @apply text-6xl font-black;
+}
+
+/* Center Layout */
+.slidev-layout.center {
+  @apply h-full grid text-center;
+}
+
+/* Section Layout */
+.slidev-layout.section {
+  @apply h-full grid;
+}
+
+.slidev-layout.section h1 {
+  @apply text-6xl font-bold leading-20;
+}
+
+/* Fact Layout */
+.slidev-layout.fact {
+  @apply h-full grid text-center;
+}
+
+.slidev-layout.fact h1 {
+  @apply text-8xl font-bold;
+}
+
+.slidev-layout.fact h1 + p {
+  @apply font-bold text-2xl;
+}
+
+/* Statement Layout */
+.slidev-layout.statement {
+  @apply h-full grid text-center;
+}
+
+.slidev-layout.statement h1 {
+  @apply text-6xl font-bold;
+}
+
+/* Quote Layout */
+.slidev-layout.quote {
+  @apply h-full grid;
+}
+
+.slidev-layout.quote h1 + p {
+  @apply mt-2;
+}
+
+/* Two Columns Layout */
+.slidev-layout.two-cols {
+  @apply h-full grid grid-cols-2 gap-8;
+}
+
+/* End Layout */
+.slidev-layout.end {
+  @apply h-full grid text-center;
+}
+
+.slidev-layout.end h1 {
+  @apply text-5xl font-bold;
+}
